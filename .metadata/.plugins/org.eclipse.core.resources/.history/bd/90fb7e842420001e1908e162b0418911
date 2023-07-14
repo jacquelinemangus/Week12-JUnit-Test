@@ -1,0 +1,23 @@
+package com.promineotech;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+
+class TestDemoJUnitTest {
+	
+	private TestDemo testDemo;
+
+	@BeforeEach
+	void setUp() throws Exception {
+	testDemo = new TestDemo();
+	}
+
+	@ParameterizedTest
+	void assertThatTwoPositiveNumbersAreAddedCorrectly() {
+		fail("Not yet implemented");
+	}
+
+}
